@@ -1,9 +1,9 @@
 package adding_test
 
 import (
-  "github.com/mauriciobergallo/school-app-students-api/pkg/adding"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/logging"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/storage/memory"
+  "github.com/mauriciobergallo/school-students-api/pkg/adding"
+  "github.com/mauriciobergallo/school-students-api/pkg/logging"
+  "github.com/mauriciobergallo/school-students-api/pkg/storage/memory"
   "github.com/stretchr/testify/assert"
   "testing"
   "time"

@@ -2,7 +2,7 @@ package listing
 
 import (
 	"github.com/google/uuid"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/logging"
+	"github.com/mauriciobergallo/school-students-api/pkg/logging"
 	"testing"
 	"time"
 )

@@ -3,10 +3,10 @@ package memory
 import (
   "errors"
   "github.com/google/uuid"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/adding"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/deleting"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/listing"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/updating"
+  "github.com/mauriciobergallo/school-students-api/pkg/adding"
+  "github.com/mauriciobergallo/school-students-api/pkg/deleting"
+  "github.com/mauriciobergallo/school-students-api/pkg/listing"
+  "github.com/mauriciobergallo/school-students-api/pkg/updating"
   "time"
 )
 
@@ -18,11 +18,11 @@ func (m *Storage) RunSeeds() error {
   idM, _ := uuid.Parse("a7f8feed-383a-4213-989e-268411297104")
   ns1 := Student{
     ID:                   idM,
-    FirstName:            "Mauricio",
-    LastName:             "Bergallo",
-    IdentificationNumber: "31174646",
-    EMail:                "bergallo.mauricio@gmail.com",
-    BirthDate:            time.Date(1984, 9, 12, 0, 0, 0, 0, time.UTC),
+    FirstName:            "John",
+    LastName:             "Doe",
+    IdentificationNumber: "12345678",
+    EMail:                "john.dow@mail.com",
+    BirthDate:            time.Date(1984, 5, 11, 0, 0, 0, 0, time.UTC),
     Created:              time.Now(),
   }
 
@@ -31,11 +31,11 @@ func (m *Storage) RunSeeds() error {
   idC, _ := uuid.Parse("81b81256-2cac-419b-8fec-d2d69b0a0dd2")
   ns2 := Student{
     ID:                   idC,
-    FirstName:            "Cintia",
-    LastName:             "D'Allotta",
-    IdentificationNumber: "308762323",
-    EMail:                "cinty.dallotta@gmail.com",
-    BirthDate:            time.Date(1984, 3, 4, 0, 0, 0, 0, time.UTC),
+    FirstName:            "Jane",
+    LastName:             "Dow",
+    IdentificationNumber: "45678912",
+    EMail:                "jane.doe@mail.com",
+    BirthDate:            time.Date(1984, 1, 8, 0, 0, 0, 0, time.UTC),
     Created:              time.Now(),
   }
 

@@ -2,9 +2,9 @@ package deleting_test
 
 import (
   "github.com/google/uuid"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/deleting"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/logging"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/storage/memory"
+  "github.com/mauriciobergallo/school-students-api/pkg/deleting"
+  "github.com/mauriciobergallo/school-students-api/pkg/logging"
+  "github.com/mauriciobergallo/school-students-api/pkg/storage/memory"
   "testing"
 )
 

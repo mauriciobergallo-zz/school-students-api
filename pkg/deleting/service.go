@@ -1,6 +1,6 @@
 package deleting
 
-import "github.com/mauriciobergallo/school-app-students-api/pkg/logging"
+import "github.com/mauriciobergallo/school-students-api/pkg/logging"
 
 type Repository interface {
   DeleteStudent(Student) error

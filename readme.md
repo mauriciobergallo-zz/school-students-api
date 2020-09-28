@@ -21,19 +21,19 @@ Payload:
     "message": [
         {
             "id": "e638ef30-5304-4369-9c11-3486ba6daabc",
-            "firstName": "Mauricio",
-            "lastName": "Bergallo",
-            "identificationNumber": "31174646",
-            "email": "bergallo.mauricio@gmail.com",
-            "birthDate": "1984-09-12T00:00:00Z"
+            "firstName": "John",
+            "lastName": "Doe",
+            "identificationNumber": "12345678",
+            "email": "john.doe@mail.com",
+            "birthDate": "1984-05-22T00:00:00Z"
         },
         {
             "id": "9b8e22e1-94ac-4b54-bb86-2b8260c15c77",
-            "firstName": "Cintia",
-            "lastName": "D'Allotta",
-            "identificationNumber": "308762323",
-            "email": "cinty.dallotta@gmail.com",
-            "birthDate": "1984-03-04T00:00:00Z"
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "identificationNumber": "45678912",
+            "email": "jane.doe@gmail.com",
+            "birthDate": "1984-04-07T00:00:00Z"
         }
     ]
 }
@@ -44,10 +44,10 @@ Payload:
 POST: http://localhost:8080/api/students
 Payload:
 {
-    "firstName": "Capo",
-    "lastName": "Vieja",
+    "firstName": "Steve",
+    "lastName": "Perez",
     "identificationNumber": "13130994",
-    "email": "capo.vieja@gmail.com",
+    "email": "steve.perez@mail.com",
     "birthDate": "1990-10-11T00:00:00Z"
 }
 ```

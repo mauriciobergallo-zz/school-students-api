@@ -1,4 +1,4 @@
-module github.com/mauriciobergallo/school-app-students-api
+module github.com/mauriciobergallo/school-students-api
 
 go 1.14
 

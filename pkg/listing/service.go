@@ -3,7 +3,7 @@ package listing
 import (
 	"errors"
 	"github.com/google/uuid"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/logging"
+	"github.com/mauriciobergallo/school-students-api/pkg/logging"
 )
 
 var ErrInRepository = errors.New("There is an error in the Repository")

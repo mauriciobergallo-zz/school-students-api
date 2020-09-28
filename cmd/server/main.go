@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/mauriciobergallo/school-app-students-api/pkg/adding"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/deleting"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/handlers"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/listing"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/logging"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/storage/memory"
-	"github.com/mauriciobergallo/school-app-students-api/pkg/updating"
+	"github.com/mauriciobergallo/school-students-api/pkg/adding"
+	"github.com/mauriciobergallo/school-students-api/pkg/deleting"
+	"github.com/mauriciobergallo/school-students-api/pkg/handlers"
+	"github.com/mauriciobergallo/school-students-api/pkg/listing"
+	"github.com/mauriciobergallo/school-students-api/pkg/logging"
+	"github.com/mauriciobergallo/school-students-api/pkg/storage/memory"
+	"github.com/mauriciobergallo/school-students-api/pkg/updating"
 )
 
 func main() {

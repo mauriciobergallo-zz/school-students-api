@@ -3,10 +3,10 @@ package handlers
 import (
   "github.com/gin-gonic/gin"
   "github.com/google/uuid"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/adding"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/deleting"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/listing"
-  "github.com/mauriciobergallo/school-app-students-api/pkg/updating"
+  "github.com/mauriciobergallo/school-students-api/pkg/adding"
+  "github.com/mauriciobergallo/school-students-api/pkg/deleting"
+  "github.com/mauriciobergallo/school-students-api/pkg/listing"
+  "github.com/mauriciobergallo/school-students-api/pkg/updating"
 )
 
 func NewRestService(as adding.Service, ls listing.Service, ds deleting.Service, us updating.Service) {
